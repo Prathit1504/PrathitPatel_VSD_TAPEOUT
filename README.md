@@ -151,5 +151,5 @@ A log of minor issues encountered and their solutions during the setup process.
 The foundational work for the tapeout program is complete. The development environment is stable, all tools are operational, and I have a solid grasp of the design flow. The project is now ready to proceed to the next stage: RTL Architecture Design.
 
 **Status:** **COMPLETE**
-<img width="1920" height="1080" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/9c4b7bc4-ad76-4049-b67b-0ad6cbf2cf6b" />
+
 
