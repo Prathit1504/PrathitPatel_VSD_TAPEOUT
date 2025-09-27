@@ -56,6 +56,49 @@ A robust toolchain is critical. This section confirms the successful installatio
 
 #### **Verification Command Log:**
 This block confirms that all tools are installed and accessible from the command line.
+<img width="1920" height="1080" alt="Screenshot (137)" src="https://github.com/user-attachments/assets/ef3fcefe-2f08-442f-bf4a-6731ea4c1e40" />
+<img width="1920" height="1080" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/6a331522-a4d5-4009-a8dd-2c93e3f84304" />
+<img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/fd97a7df-eab5-422f-95df-d301af513c10" />
+<img width="1920" height="1080" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/b4b19b41-a778-44d8-917f-07f58529ce8c" />
+<img width="1920" height="1080" alt="Screenshot (141)" src="https://github.com/user-attachments/assets/918f5c7e-aa9a-49c2-82f7-262531b31387" />
+<img width="1920" height="1080" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/bd8f82fb-9dd4-401b-9f2c-bb270d438bd2" />
+
+<img width="1920" height="1080" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/bca67b84-0e5b-4d3f-a94a-aa416ae1cbb1" />
+<img width="1920" height="1080" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/8522ebdb-329d-4d28-ad16-304d5ac4cd0f" />
+<img width="1920" height="1080" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/7ee07e67-d519-4e29-a30a-7b8ffbdef1c1" />
+---
+
+### ## 💡 Real-World Impact: Potential Applications
+
+This general-purpose SoC design is flexible enough to power a wide range of devices:
+* **Wearable Technology** (e.g., fitness trackers, smartwatches)
+* **Embedded Systems** (e.g., Arduino-like development boards)
+* **Smart Home Devices** (e.g., controllers for appliances and sensors)
+* **Consumer Electronics** (e.g., simple display controllers)
+
+---
+
+### ## 🏆 Week 0 Debrief: Achievements & Learnings
+
+| Key Milestones Reached                                                               | Skills Unlocked                                                                  |
+| :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| ✅ Fully operational EDA environment established.                                    | 🧠 Deepened understanding of the complete RTL-to-GDSII flow.                     |
+| ✅ All core software (Yosys, iverilog, etc.) installed and verified.                   | 🧠 Gained proficiency in building tools from source code on Linux.               |
+| ✅ VirtualBox and Docker container environment is stable.                            | 🧠 Improved Linux command-line and package management skills.                    |
+| ✅ Project repository on GitHub initialized.                                         | 🧠 Learned the specific role of each EDA tool in the chip design ecosystem.      |
+
+---
+
+### ## 📓 Field Notes: Troubleshooting & Fixes
+
+1.  **Docker Version Check:** The `docker --version` command initially failed because `docker` is aliased in the OpenLane environment.
+    * **Solution:** Used `command docker --version` to bypass the alias and get the true version info.
+2.  **Python Pip:** The `pip` module was not installed with the default Python 3.
+    * **Solution:** Installed it manually using `sudo apt-get install python3-pip`.
+
+---
+
+### ## ➡️ Next Steps
 
 ```bash
 # EDA Tool Version Checks
@@ -91,6 +134,7 @@ python3 -m pip --version
 * **OpenLane (The Automated Flow)**
     * **Purpose:** This is the master tool that automates the entire Stage O4 physical design process, from netlist to GDSII.
     * **Status:** Pre-installed and fully operational.
+
 <img width="1920" height="1080" alt="Screenshot (137)" src="https://github.com/user-attachments/assets/ef3fcefe-2f08-442f-bf4a-6731ea4c1e40" />
 <img width="1920" height="1080" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/6a331522-a4d5-4009-a8dd-2c93e3f84304" />
 <img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/fd97a7df-eab5-422f-95df-d301af513c10" />
